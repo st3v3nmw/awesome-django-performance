@@ -8,10 +8,10 @@
 - [Database](#database)
 - [Caching](#caching)
 - [Serialization](#serialization)
-- [Servers](#servers)
 - [Tasks](#tasks)
 - [Testing](#testing)
 - [Monitoring](#monitoring)
+- [Servers](#servers)
 - [Books](#books)
 
 ## Profiling
@@ -54,6 +54,7 @@
 - [django-cachalot](https://github.com/noripyt/django-cachalot) - Caches your Django ORM queries and automatically invalidates them.
 - [django-cache-machine](https://github.com/django-cache-machine/django-cache-machine) - Automatic caching and invalidation for Django models through the ORM.
 - [django-ormcache](https://github.com/educreations/django-ormcache) - A cache manager mixin that provides some caching of objects for the ORM.
+- [PolyScale.ai](https://www.polyscale.ai/) - A high performance Data Delivery Network (DDN) that accelerates databases. Using smart caching, it improves query performance, lowers latency and makes data access and scale engineering a breeze, both on premise and at the edge.
 
 ### Articles
 
@@ -73,16 +74,6 @@
 
 - [Improve Serialization Performance in Django Rest Framework](https://hakibenita.com/django-rest-framework-slow) - How we reduced serialization time by 99%!
 - [Python Serialization Benchmark](https://voidfiles.github.io/python-serialization-benchmark/) - A set of benchmarks for Python serialization frameworks.
-
-## Servers
-
-### Tools
-
-- [Varnish Cache](https://varnish-cache.org/intro/index.html#intro) - A web application accelerator also known as a caching HTTP reverse proxy.
-
-### Articles
-
-- [Is Django too slow?](https://mattsegal.dev/is-django-too-slow.html)
 
 ## Tasks
 
@@ -113,7 +104,17 @@
 - [apm-agent-python](https://github.com/elastic/apm-agent-python) -  Official Python agent for Elastic APM.
 - [New Relic Python Agent](https://github.com/newrelic/newrelic-python-agent) - Instruments your application for performance monitoring and advanced performance analytics with New Relic.
 
+## Servers
+
+### Tools
+
+- [Varnish Cache](https://varnish-cache.org/intro/index.html#intro) - A web application accelerator also known as a caching HTTP reverse proxy.
+
+### Articles
+
+- [Is Django too slow?](https://mattsegal.dev/is-django-too-slow.html)
+
 ## Books
 
 - [The Temple of Django Database Performance](https://spellbookpress.com/books/temple-of-django-database-performance/) - By [Andrew Brookins](https://andrewbrookins.com/).
-- [High Performance Django](https://lincolnloop.com/high-performance-django/index.html) - By Peter Baumgartner and  Yann Malet.
+- [High Performance Django](https://lincolnloop.com/high-performance-django/index.html) - By Peter Baumgartner and Yann Malet.
