@@ -33,6 +33,7 @@
 - [django-auto-prefetch](https://github.com/tolomea/django-auto-prefetch) - Automatically prefetch foreign key values as needed (ORM level).
 - [django-zen-queries](https://github.com/dabapps/django-zen-queries) - Explicit control over database query execution in Django applications.
 - [nplusone](https://github.com/jmcarp/nplusone) - Auto-detecting the n+1 queries problem in Python.
+- [django-pickling](https://github.com/Suor/django-pickling) - Efficient pickling for Django models.
 - [django-test-query-counter](https://github.com/sophilabs/django-test-query-counter/) - A Django toolkit for controlling query count when testing.
 - [PgBouncer](https://www.pgbouncer.org/) - Lightweight connection pooler for PostgreSQL.
 
