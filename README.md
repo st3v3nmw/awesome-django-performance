@@ -36,6 +36,7 @@
 - [django-pickling](https://github.com/Suor/django-pickling) - Efficient pickling for Django models.
 - [django-test-query-counter](https://github.com/sophilabs/django-test-query-counter/) - A Django toolkit for controlling query count when testing.
 - [PgBouncer](https://www.pgbouncer.org/) - Lightweight connection pooler for PostgreSQL.
+- [psycogreen](https://github.com/psycopg/psycogreen) - Integration of psycopg2 with coroutine libraries.
 
 ### Articles
 
@@ -54,6 +55,7 @@
 - [django-cacheops](https://github.com/Suor/django-cacheops) - A slick ORM cache with automatic granular event-driven invalidation.
 - [django-cachalot](https://github.com/noripyt/django-cachalot) - Caches your Django ORM queries and automatically invalidates them.
 - [django-cache-machine](https://github.com/django-cache-machine/django-cache-machine) - Automatic caching and invalidation for Django models through the ORM.
+- [django-request-cache](https://github.com/anexia/django-request-cache) - A Django app that provides a new cache on every request object. The cache is only kept within the request/response cycle.
 - [django-ormcache](https://github.com/educreations/django-ormcache) - A cache manager mixin that provides some caching of objects for the ORM.
 - [PolyScale.ai](https://www.polyscale.ai/) - A high performance Data Delivery Network (DDN) that accelerates databases. Using smart caching, it improves query performance, lowers latency and makes data access and scale engineering a breeze, both on premise and at the edge.
 
@@ -110,10 +112,12 @@
 ### Tools
 
 - [Varnish Cache](https://varnish-cache.org/intro/index.html#intro) - A web application accelerator also known as a caching HTTP reverse proxy.
+- [gevents](https://www.gevent.org/) - A coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libev or libuv event loop.
 
 ### Articles
 
 - [Is Django too slow?](https://mattsegal.dev/is-django-too-slow.html)
+- [Gunicorn Async Workers with gevent](https://www.joelsleppy.com/blog/gunicorn-async-workers-with-gevent/)
 
 ## Books
 
