@@ -9,9 +9,9 @@
 - [Caching](#caching)
 - [Serialization](#serialization)
 - [Tasks](#tasks)
+- [Servers](#servers)
 - [Testing](#testing)
 - [Monitoring](#monitoring)
-- [Servers](#servers)
 - [Books](#books)
 
 ## Profiling
@@ -29,6 +29,7 @@
 
 - [django-auto-prefetching](https://github.com/GeeWee/django-auto-prefetching) - Never worry about n+1 performance problems again (DRF views level).
 - [djangorestframework-queryfields](https://github.com/wimglenn/djangorestframework-queryfields) - Allows clients to control which fields will be sent in the API response.
+- [django-virtual-models](https://github.com/vintasoftware/django-virtual-models) - Improve performance and maintainability with a prefetching layer in your Django project.
 - [django-perf-rec](https://github.com/adamchainz/django-perf-rec) - Django-perf-rec is like Django's assertNumQueries on steroids. It lets you track the individual queries and cache operations that occur in your code.
 - [django-auto-prefetch](https://github.com/tolomea/django-auto-prefetch) - Automatically prefetch foreign key values as needed (ORM level).
 - [django-zen-queries](https://github.com/dabapps/django-zen-queries) - Explicit control over database query execution in Django applications.
@@ -57,11 +58,13 @@
 - [django-cache-machine](https://github.com/django-cache-machine/django-cache-machine) - Automatic caching and invalidation for Django models through the ORM.
 - [django-request-cache](https://github.com/anexia/django-request-cache) - A Django app that provides a new cache on every request object. The cache is only kept within the request/response cycle.
 - [django-ormcache](https://github.com/educreations/django-ormcache) - A cache manager mixin that provides some caching of objects for the ORM.
+- [Varnish Cache](https://varnish-cache.org/intro/index.html#intro) - A web application accelerator also known as a caching HTTP reverse proxy.
 - [PolyScale.ai](https://www.polyscale.ai/) - A high performance Data Delivery Network (DDN) that accelerates databases. Using smart caching, it improves query performance, lowers latency and makes data access and scale engineering a breeze, both on premise and at the edge.
 
 ### Articles
 
 - [Django's cache framework](https://docs.djangoproject.com/en/dev/topics/cache/)
+- [Varnish - 12 Days of Performance](https://www.revsys.com/12days/varnish/)
 
 ## Serialization
 
@@ -88,6 +91,21 @@
 - [Django-RQ](https://github.com/rq/django-rq) - A simple app that provides django integration for RQ (Redis Queue).
 - [Django Q](https://github.com/Koed00/django-q) - A multiprocessing distributed task queue for Django.
 
+### Articles
+
+- [Improving Scalability, Reliability, and Efficiency of a Python Service with Gevent](https://doordash.engineering/2021/01/19/scaling-efficienc-of-a-python-service-with-gevent/)
+
+## Servers
+
+### Tools
+
+- [gevents](https://www.gevent.org/) - A coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libev or libuv event loop.
+
+### Articles
+
+- [Is Django too slow?](https://mattsegal.dev/is-django-too-slow.html)
+- [Gunicorn Async Workers with gevent](https://www.joelsleppy.com/blog/gunicorn-async-workers-with-gevent/)
+
 ## Testing
 
 ### Tools
@@ -106,18 +124,6 @@
 - [Grafana](https://grafana.com/) - Operational dashboards for your data here, there, or anywhere.
 - [apm-agent-python](https://github.com/elastic/apm-agent-python) -  Official Python agent for Elastic APM.
 - [New Relic Python Agent](https://github.com/newrelic/newrelic-python-agent) - Instruments your application for performance monitoring and advanced performance analytics with New Relic.
-
-## Servers
-
-### Tools
-
-- [Varnish Cache](https://varnish-cache.org/intro/index.html#intro) - A web application accelerator also known as a caching HTTP reverse proxy.
-- [gevents](https://www.gevent.org/) - A coroutine-based Python networking library that uses greenlet to provide a high-level synchronous API on top of the libev or libuv event loop.
-
-### Articles
-
-- [Is Django too slow?](https://mattsegal.dev/is-django-too-slow.html)
-- [Gunicorn Async Workers with gevent](https://www.joelsleppy.com/blog/gunicorn-async-workers-with-gevent/)
 
 ## Books
 
