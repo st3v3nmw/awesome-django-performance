@@ -22,6 +22,7 @@
 - [Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) - A configurable set of panels that display various debug information about the current request/response.
 - [pyinstrument](https://github.com/joerick/pyinstrument) - Call stack profiler for Python. Shows you why your code is slow!
 - [cProfile](https://docs.python.org/3.11/library/profile.html) - cProfile and profile provide deterministic profiling of Python programs.
+- [dj-tracker](https://github.com/Tijani-Dia/dj-tracker) - `dj-tracker` is an app that tracks your queries to help detecting some possible performance optimisations listed in [Database access optimization](https://docs.djangoproject.com/en/dev/topics/db/optimization/)
 
 ## Database
 
