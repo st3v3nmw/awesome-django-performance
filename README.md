@@ -23,6 +23,7 @@
 - [pyinstrument](https://github.com/joerick/pyinstrument) - Call stack profiler for Python. Shows you why your code is slow!
 - [cProfile](https://docs.python.org/3.11/library/profile.html) - cProfile and profile provide deterministic profiling of Python programs.
 - [dj-tracker](https://github.com/Tijani-Dia/dj-tracker) - `dj-tracker` is an app that tracks your queries to help detecting some possible performance optimisations listed in [Database access optimization](https://docs.djangoproject.com/en/dev/topics/db/optimization/)
+- [Pyroscope](https://grafana.com/docs/pyroscope/latest/configure-client/language-sdks/python/) - Grafana Pyroscope is an open source software project for aggregating continuous profiling data. It allows you to profile your applications in real-time, and then analyze the data to identify bottlenecks and performance issues.
 
 ## Database
 
