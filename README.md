@@ -19,9 +19,9 @@
 ### Tools
 
 - [Django Silk](https://github.com/jazzband/django-silk) - Silk is a live profiling and inspection tool for the Django framework. Silk intercepts and stores HTTP requests and database queries before presenting them in a user interface for further inspection.
-- [Django Debug Toolbar](https://github.com/jazzband/django-debug-toolbar) - A configurable set of panels that display various debug information about the current request/response.
+- [Django Debug Toolbar](https://github.com/django-commons/django-debug-toolbar) - A configurable set of panels that display various debug information about the current request/response.
 - [pyinstrument](https://github.com/joerick/pyinstrument) - Call stack profiler for Python. Shows you why your code is slow!
-- [cProfile](https://docs.python.org/3.11/library/profile.html) - cProfile and profile provide deterministic profiling of Python programs.
+- [cProfile](https://docs.python.org/3.13/library/profile.html) - cProfile and profile provide deterministic profiling of Python programs.
 - [dj-tracker](https://github.com/Tijani-Dia/dj-tracker) - `dj-tracker` is an app that tracks your queries to help detecting some possible performance optimisations listed in [Database access optimization](https://docs.djangoproject.com/en/dev/topics/db/optimization/)
 - [Pyroscope](https://grafana.com/docs/pyroscope/latest/configure-client/language-sdks/python/) - Grafana Pyroscope is an open source software project for aggregating continuous profiling data. It allows you to profile your applications in real-time, and then analyze the data to identify bottlenecks and performance issues.
 
@@ -60,8 +60,7 @@
 - [django-cache-machine](https://github.com/django-cache-machine/django-cache-machine) - Automatic caching and invalidation for Django models through the ORM.
 - [django-request-cache](https://github.com/anexia/django-request-cache) - A Django app that provides a new cache on every request object. The cache is only kept within the request/response cycle.
 - [django-ormcache](https://github.com/educreations/django-ormcache) - A cache manager mixin that provides some caching of objects for the ORM.
-- [Varnish Cache](https://varnish-cache.org/intro/index.html#intro) - A web application accelerator also known as a caching HTTP reverse proxy.
-- [PolyScale.ai](https://www.polyscale.ai/) - A high performance Data Delivery Network (DDN) that accelerates databases. Using smart caching, it improves query performance, lowers latency and makes data access and scale engineering a breeze, both on premise and at the edge.
+- [Varnish Cache](https://varnish-cache.org/intro/index.html) - A web application accelerator also known as a caching HTTP reverse proxy.
 
 ### Articles
 
